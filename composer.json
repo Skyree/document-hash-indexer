@@ -1,0 +1,24 @@
+{
+    "name": "skyree/document-hash-indexer",
+    "description": "Index csv or json documents as key-hash pairs in a yaml file",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Skyree",
+            "email": "boulakras.loic@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Skyree\\DocumentHashIndexer\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "thecodingmachine/safe": "^0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
